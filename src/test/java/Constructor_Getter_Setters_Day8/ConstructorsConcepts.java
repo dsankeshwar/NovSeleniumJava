@@ -1,4 +1,4 @@
-package Constructor_Getter_Setters_Day8;
+ package Constructor_Getter_Setters_Day8;
 
 //Default value for a string or any non primitive data type is null
 //Default value for a double/float is 0.0
@@ -19,7 +19,7 @@ class Cars {
   //Variables declared at a class level are called as instance variables
 
   private String name;
-  private double price;
+  private long price;
   private String model;
 
   //Syntax of a default constructor:
@@ -46,7 +46,7 @@ class Cars {
 //  }
 
 
-  public Cars(String name, double price, String model)
+  public Cars(String name, long price, String model)
   {
       //variables declared within the method are called as local variables
       System.out.println("This is a parameterized constructor");
@@ -58,7 +58,7 @@ class Cars {
       this.model=model;
   }
 
-  public Cars(String carName, double carPrice)
+  public Cars(String carName, long carPrice)
   {
       System.out.println("This is a parameterized constructor");
       name=carName;
